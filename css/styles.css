@@ -340,6 +340,10 @@ color: var(--iris, #4D5AE5);
 .portfolio {
 
 }
+.portfolio-main {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .portfolio-btn-list {
     display: flex;
 gap: 24px;
@@ -367,11 +371,13 @@ margin-top: 96px;
         cursor: pointer;
         border-radius: 4px;
         border: 1px solid var(--cornflower, #E7E9FC);
+        padding: 12px 24px;
 }
 .portfolio-btn:focus,
 .portfolio-btn:hover {
     color: var(--white, #FFF);
         background: #404BBF;
+        border: 1px solid transparent;
 }
 
 
@@ -393,7 +399,9 @@ margin-top: 96px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
 
 .portfolio-paragraph {
      color: var(--primary-color);
