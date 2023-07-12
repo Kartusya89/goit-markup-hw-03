@@ -17,9 +17,20 @@ body {
     color: var(--primary-color);
     background-color: #FFF;
 }
+.visual-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .container {
-    width: 100%;
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     
@@ -92,6 +103,7 @@ color: var(--color-text);
 }
 .header-menu-link {
     color: var(--color-text);
+    padding: 24px 0;
 }
 .header-adress {
     font-style: normal;
@@ -195,6 +207,9 @@ padding-bottom: 292px;
         letter-spacing: 0.02em;
 }
 /*-----------work------------*/
+.work {
+    padding-bottom: 120px;
+}
 .work-title {
     color: var(--color-text);
     margin-bottom: 72px;
@@ -211,10 +226,8 @@ padding-bottom: 292px;
 /*-----------team------------*/
 .team {
 background-color: #F4F4FD;
-margin-top: 120px;
-padding-bottom: 120px;
+padding-bottom: 120px 0;
 }
-
 
 
 .team-list {
@@ -224,8 +237,11 @@ padding-bottom: 120px;
 .team-lead {
     background-color: #FFFFFF;
     width: calc((100%-24*3)/4);
+    border-radius: 0px 0px 4px 4px;
 }
-
+.team-image {
+display: block
+}
 
 .team-members {
     color: var(--color-text);
@@ -235,6 +251,7 @@ padding-bottom: 120px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 
 .team-members-position {
@@ -245,6 +262,7 @@ padding-bottom: 120px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: center
         
 }
 .section-title {
@@ -259,8 +277,7 @@ padding-bottom: 120px;
     align-items: center;
     gap: 8px;
     margin: 0 auto;
-    padding-top: 32px;
-    padding-bottom: 32px;
+   padding: 32px 16px
 }
 /*-----------footer------------*/
 .footer {
@@ -270,6 +287,7 @@ padding-bottom: 120px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-bottom: 16px;
+        padding: 100px 0;
        
 
         
@@ -298,12 +316,11 @@ color: var(--iris, #4D5AE5);
     font-weight: 800;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    margin-bottom: 17px;
     display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-cont {
-padding-top: 100px;
-padding-bottom: 100px;
+
 }
 .footer-context {
     width: 264px;
