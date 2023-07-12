@@ -427,7 +427,7 @@ margin-top: 96px;
         flex-wrap: wrap;
 }
 .image-list {
-    
+    display: block;
 }
 .portfolio-text-cont {
     padding: 32px 16px;
