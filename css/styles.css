@@ -64,10 +64,13 @@ margin-left: auto;
 .header-navigation {
     display: flex;
     flex-grow: 1;
+    align-items: center;
 }
 .header-container {
     display: flex;
     align-items: center;
+    width: 1158px;
+        padding: 0 15px;
 }
 .header-menu-list {
     display: flex;
@@ -142,6 +145,7 @@ color: var(--color-text);
        margin: 0 auto;
        width: 496px;
        margin-bottom: 48px;
+    padding: 188px 0;
 }
 
 
@@ -160,6 +164,8 @@ color: var(--color-text);
     border: none;
     display: block;
     margin: 0 auto;
+    min-width: 169px;
+        height: 56px;
 }
 
 .hero-btn:hover,
@@ -168,7 +174,6 @@ color: var(--white, #FFF);
 background-color: #404BBF;
 }
 .hero-container {
-padding-top: 188px;
 padding-bottom: 292px;
 }
 
